@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Home from './components/home.jsx'
+import About from './components/about.jsx'
 import Footer from './components/footer.jsx'
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
     <section>
         {
         (page === "Home") ? <Home />
-                          : (page === "About") ? ""
+                          : (page === "About") ? <About />
                           : (page === "Projects") ? ""
                           : "" 
         }
