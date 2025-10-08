@@ -3,6 +3,7 @@ import './App.css'
 
 import Home from './components/home.jsx'
 import About from './components/about.jsx'
+import Projects from './components/projects.jsx'
 import Footer from './components/footer.jsx'
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
         {
         (page === "Home") ? <Home />
                           : (page === "About") ? <About />
-                          : (page === "Projects") ? ""
+                          : (page === "Projects") ? <Projects />
                           : "" 
         }
     </section>

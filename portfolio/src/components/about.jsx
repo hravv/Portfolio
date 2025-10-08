@@ -5,7 +5,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
+    <>
       <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
       <div>
@@ -46,8 +46,12 @@ const About = () => {
             <figcaption>AWS</figcaption>
           </figure>
         </div>
+        <h1 className='mx-auto w-fit xl:text-[1.6rem] sm:text-[1.4rem] text-[1rem] mb-6'>Hobbies</h1>
+        <p className='text-[1.1rem] w-[65%] mx-auto text-center mb-10 '>
+          Since I was little I've loved playing video games and recently have been streaming them online to other people. I enjoy horror and retro games most but all genres are fun to me. I spend a decent portion of my free time (and money) expanding my music collection, and have a record spinning most of the time I'm not busy.
+        </p>
       </div>
-    </div>
+    </>
   )
 }
 
