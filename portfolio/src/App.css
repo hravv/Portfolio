@@ -44,19 +44,7 @@ body {
   overflow: hidden;
 }
 
-.test {
-  position:absolute;
-  left: -20vw;
-  width: 20vmin;
-  height: 20vmin;
-  box-shadow: 0 0 5vmin currentColor;
-  color: #4D48C5;
-  background-color: #4D48C5;
-  backface-visibility: visible;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
-
-.ball, .square, .triangle {
+.ball, .square {
   position: absolute;
   width: 20vmin;
   height: 20vmin;
@@ -69,12 +57,20 @@ body {
 }
 
 .triangle {
-  border-radius: 50%;
+  position: absolute;
+  width: 20vmin;
+  height: 20vmin;
+  box-shadow: 0 0 5vmin currentColor;
+  color: #4D48C5;
+  background-color: #4D48C5;
+  backface-visibility: visible;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  animation: move linear infinite;
 }
 
 .triangle-parent {
   filter: drop-shadow(30vw 0px 10px);
-  color: inherit;
+  animation: move linear infinite;
 }
 
 .shape:nth-child(odd), .triangle-parent:nth-child(odd) {
@@ -133,4 +129,22 @@ body {
   animation-delay: -10s;
   transform-origin: 18vw 4vh;
   box-shadow: 40vmin 0 5.178483653434181vmin currentColor;
+}
+
+.triangle-parent:nth-child(1) {
+  top: 77%;
+  left: -40vw;
+  animation-duration: 40s;
+  animation-delay: -3s;
+  transform-origin: 16vw -2vh;
+  filter: drop-shadow(80vw 0 10px currentColor);
+}
+
+.triangle-parent:nth-child(2) {
+  top: 42%;
+  left: -50vw;
+  animation-duration: 53s;
+  animation-delay: -29s;
+  transform-origin: -19vw 21vh;
+  filter: drop-shadow(90vw 0 10px currentColor);
 }
