@@ -17,10 +17,17 @@ function App() {
       <span className='shape ball' />
       <span className='shape square' />
       <span className='shape square' />
-      <span className='shape ball' />
-      <span className='shape ball' />   
+      <div className='triangle-parent'>
+        <span className='shape triangle' />
+      </div>
+      <div className='triangle-parent'>
+        <span className='shape triangle' />
+      </div> 
     </div>
     <div className='relative z-10 min-h-screen w-full flex flex-col'>
+      <div className='triangle-parent'>
+        <span className='test'></span>
+      </div>
       <div className='h-[5rem] lg:h-[10rem]'></div>
       {/* Top Space */}
       <div className='head-container'>

@@ -44,23 +44,44 @@ body {
   overflow: hidden;
 }
 
-.ball, .square {
+.test {
+  position:absolute;
+  left: -20vw;
+  width: 20vmin;
+  height: 20vmin;
+  box-shadow: 0 0 5vmin currentColor;
+  color: #4D48C5;
+  background-color: #4D48C5;
+  backface-visibility: visible;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.ball, .square, .triangle {
   position: absolute;
   width: 20vmin;
   height: 20vmin;
   backface-visibility: hidden;
-  animation: move linear infinite;
+  animation: move linear infinite
 }
 
 .ball {
   border-radius: 50%;
 }
 
-.shape:nth-child(odd) {
+.triangle {
+  border-radius: 50%;
+}
+
+.triangle-parent {
+  filter: drop-shadow(30vw 0px 10px);
+  color: inherit;
+}
+
+.shape:nth-child(odd), .triangle-parent:nth-child(odd) {
     color: #4D48C5;
 }
 
-.shape:nth-child(even) {
+.shape:nth-child(even), .triangle-parent:nth-child(even) {
     color: #4B2CA3;
 }
 
