@@ -12,15 +12,15 @@ function App() {
 
   return (
   <>
-    <div className='background'> {/* Shapes Background Div */}
-      <span className='ball' />
-      <span className='ball' />
-      <span className='ball' />
-      <span className='ball' />
-      <span className='ball' />
-      <span className='ball' />   
+    <div className='background bg-floralwhite z-0'> {/* Shapes Background Div */}
+      <span className='shape ball' />
+      <span className='shape ball' />
+      <span className='shape square' />
+      <span className='shape square' />
+      <span className='shape ball' />
+      <span className='shape ball' />   
     </div>
-    <div className='bg-floralwhite z-1 min-h-screen w-full flex flex-col'>
+    <div className='relative z-10 min-h-screen w-full flex flex-col'>
       <div className='h-[5rem] lg:h-[10rem]'></div>
       {/* Top Space */}
       <div className='head-container'>

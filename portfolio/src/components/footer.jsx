@@ -5,7 +5,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 const Footer = () => {
   return (
-    <section className='footer z-1 h-[5rem] xl:h-[7.5rem] bg-grape mt-auto flex flex-col justify-center align-middle gap-x-10 md:gap-x-20'>
+    <section className='footer relative z-10 h-[5rem] xl:h-[7.5rem] bg-grape mt-auto flex flex-col justify-center align-middle gap-x-10 md:gap-x-20'>
         <div className='socials-cont my-auto flex justify-center align-middle gap-x-10 md:gap-x-20 h-fit'>
         <FontAwesomeIcon icon={faGithub} className='text-floralwhite text-[2rem] xl:text-[2.7rem]' />
         <FontAwesomeIcon icon={faLinkedin} className='text-floralwhite text-[2rem] xl:text-[2.7rem]' />

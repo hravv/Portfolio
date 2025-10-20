@@ -44,26 +44,28 @@ body {
   overflow: hidden;
 }
 
-.ball {
+.ball, .square {
   position: absolute;
   width: 20vmin;
   height: 20vmin;
-  border-radius: 50%;
   backface-visibility: hidden;
   animation: move linear infinite;
-  z-index: -1;
 }
 
-.ball:nth-child(odd) {
+.ball {
+  border-radius: 50%;
+}
+
+.shape:nth-child(odd) {
     color: #4D48C5;
 }
 
-.ball:nth-child(even) {
+.shape:nth-child(even) {
     color: #4B2CA3;
 }
 
 
-.ball:nth-child(1) {
+.shape:nth-child(1) {
   top: 77%;
   left: 88%;
   animation-duration: 40s;
@@ -71,7 +73,7 @@ body {
   transform-origin: 16vw -2vh;
   box-shadow: 40vmin 0 5.703076368487546vmin currentColor;
 }
-.ball:nth-child(2) {
+.shape:nth-child(2) {
   top: 42%;
   left: 2%;
   animation-duration: 53s;
@@ -79,7 +81,7 @@ body {
   transform-origin: -19vw 21vh;
   box-shadow: -40vmin 0 5.17594621519026vmin currentColor;
 }
-.ball:nth-child(3) {
+.shape:nth-child(3) {
   top: 28%;
   left: 18%;
   animation-duration: 49s;
@@ -87,7 +89,7 @@ body {
   transform-origin: -22vw 3vh;
   box-shadow: 40vmin 0 5.248179047256236vmin currentColor;
 }
-.ball:nth-child(4) {
+.shape:nth-child(4) {
   top: 50%;
   left: 79%;
   animation-duration: 26s;
@@ -95,7 +97,7 @@ body {
   transform-origin: -17vw -6vh;
   box-shadow: 40vmin 0 5.279749632220298vmin currentColor;
 }
-.ball:nth-child(5) {
+.shape:nth-child(5) {
   top: 46%;
   left: 15%;
   animation-duration: 36s;
@@ -103,27 +105,11 @@ body {
   transform-origin: 4vw 0vh;
   box-shadow: -40vmin 0 5.964309466052033vmin currentColor;
 }
-.ball:nth-child(6) {
+.shape:nth-child(6) {
   top: 77%;
   left: 16%;
   animation-duration: 31s;
   animation-delay: -10s;
   transform-origin: 18vw 4vh;
   box-shadow: 40vmin 0 5.178483653434181vmin currentColor;
-}
-.ball:nth-child(7) {
-  top: 22%;
-  left: 17%;
-  animation-duration: 55s;
-  animation-delay: -6s;
-  transform-origin: 1vw -23vh;
-  box-shadow: -40vmin 0 5.703026794398318vmin currentColor;
-}
-.ball:nth-child(8) {
-  top: 41%;
-  left: 47%;
-  animation-duration: 43s;
-  animation-delay: -28s;
-  transform-origin: 25vw -3vh;
-  box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
 }
