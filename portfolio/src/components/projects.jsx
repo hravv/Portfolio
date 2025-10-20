@@ -1,30 +1,48 @@
 import React from 'react'
+import movietime from '../assets/movietime.png'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='mb-10'>
+      <h1 className='mx-auto w-fit text-grape xl:text-[1.6rem] sm:text-[1.4rem] text-[1rem] mb-10'>Completed Projects</h1>
+      <div className='complete grid grid-cols-2 md:grid-cols-3 gap-14 mx-auto w-fit mb-8'>
+        <a href="https://hravv.github.io/Movie-Time/" target='_blank'>
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col cursor-pointer'>
+          <img src={movietime} className='h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto text-white w-fit h-fit '>Movie Time</figcaption>
+        </figure>
+        </a>
 
-      <div className='complete grid grid-cols-3 gap-14 mx-auto w-fit mb-8'>
-        <figure className='h-72 bg-grape w-62'>
-          <div className='bg-darkgrape h-50 w-50 mx-auto mt-6' />
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
+          <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
         </figure>
-        <figure>
-          <div className='bg-darkgrape h-50 w-50' />
+
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
+          <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
         </figure>
-        <figure>
-          <div className='bg-indigo-400 h-50 w-50' />
-        </figure>
+
       </div>
-      <div className='progress grid grid-cols-3 gap-14 mx-auto w-fit mb-8'>
-        <figure>
-          <div className='bg-indigo-400 h-50 w-50' />
+
+      <h1 className='mx-auto w-fit text-grape xl:text-[1.6rem] sm:text-[1.4rem] text-[1rem] mb-10'>Projects I'm Working On</h1>
+
+      <div className='progress grid grid-cols-2 md:grid-cols-3 gap-14 mx-auto w-fit mb-8'>
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
+          <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
         </figure>
-        <figure>
-          <div className='bg-indigo-400 h-50 w-50' />
+
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
+          <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
         </figure>
-        <figure>
-          <div className='bg-indigo-400 h-50 w-50' />
+
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
+          <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
         </figure>
+
       </div>
     </div>
   )
