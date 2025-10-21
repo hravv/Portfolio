@@ -12,23 +12,19 @@ function App() {
 
   return (
   <>
-    <div className='background bg-floralwhite z-0'> {/* Shapes Background Div */}
-      <span className='shape ball' />
-      <span className='shape ball' />
-      <span className='shape square' />
-      <span className='shape square' />
-      <div className='triangle-parent'>
-        <span className='triangle' />
-      </div>
-      <div className='triangle-parent'>
-        <span className='triangle' />
-      </div> 
+    <div className='background bg-floralwhite z-0 mix-blend-darken'> {/* Shapes Background Div */}
+      <span className='shape ball mix-blend-darken' />
+      <span className='shape ball mix-blend-darken' />
+      <span className='shape square mix-blend-darken' />
+      <span className='shape square mix-blend-darken' />
+      <span className='triangle mix-blend-darken' />
+      <span className='triangle mix-blend-darken' />
     </div>
     <div className='relative z-10 min-h-screen w-full flex flex-col'>
       <div className='h-[5rem] lg:h-[10rem]'></div>
       {/* Top Space */}
-      <div className='head-container'>
-        <h1 className='mx-auto w-fit font-futura xl:text-[6rem] sm:text-[4.8rem] text-[3.5rem] text-grape'>
+      <div className='head-container mix-blend-darken'>
+        <h1 className='mx-auto mix-blend-darken w-fit font-futura xl:text-[6rem] sm:text-[4.8rem] text-[3.5rem] text-grape'>
           {
           (page === "Home") ? "I'm Harvey."
                             : (page === "About") ? "About Me."

@@ -62,39 +62,35 @@ body {
   position: absolute;
   width: 20vmin;
   height: 20vmin;
-  background-color: currentColor;
+  background-image: url('/triangle.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   backface-visibility: hidden;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  left: 0;
-  top: 0;
-}
-
-.triangle-parent {
-  position: absolute;
   animation: move linear infinite;
-  width: 20vmin;
-  height: 20vmin;
-  filter: drop-shadow(60vmin 0px 10px currentColor);
+  will-change: transform, filter;
+  transform: translateZ(0);
+  filter: drop-shadow(0 0 5px #4D48C5) blur(16px);
 }
 
-/* Left-side triangle (shadow cast right) */
-.triangle-parent:nth-child(5) {
-  top: 20%;
-  left: -15vw;
-  animation-duration: 38s;
+
+.triangle:nth-child(5) {
+  z-index: 2;
   animation-delay: -5s;
-  transform-origin: 120vw 10vh;
-  filter: drop-shadow(70vmin 0px 10px currentColor);
+  top: 50%;
+  left: 35%;
+  animation-duration: 40s;
+  transform-origin: 35vw 20vh;
 }
 
 /* Right-side triangle (shadow cast left) */
-.triangle-parent:nth-child(6) {
-  top: 60%;
-  left: 80vw;
+.triangle:nth-child(6) {
+  top: 40%;
+  right: 80vw;
+  z-index: 2;
   animation-duration: 38s;
   animation-delay: -15s;
-  transform-origin: -120vw -5vh;
-  filter: drop-shadow(50vmin 0px 10px currentColor);
+  transform-origin: -20vw -5vh;
 }
 
 
@@ -138,9 +134,4 @@ body {
   animation-delay: -21s;
   transform-origin: 40vw 40vh;
   box-shadow: 40vmin 0 5.28vmin currentColor;
-}
-
-.triangle-parent, .triangle {
-  will-change: transform, filter;
-  transform: translateZ(0);
 }
