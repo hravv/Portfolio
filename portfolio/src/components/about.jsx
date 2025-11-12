@@ -10,7 +10,7 @@ const About = () => {
 
       <div>
         <h1 className='mx-auto w-fit text-grape xl:text-[1.6rem] sm:text-[1.4rem] text-[1rem] mb-6'>Aspiring Web Developer</h1>
-        <p className='text-[1.1rem] w-[65%] mx-auto text-center mb-10 '>
+        <p className='text-[1.1rem] md:text-[1.4rem] w-[65%] mx-auto text-center mb-10 '>
           I'm Harvey Burman - a web developer in training with a passion for creating responsive, visually appealing user interfaces.
           I have been studying and practicing using my own time, creating projects (that you can see for yourself!) and gaining certifications as a means to achieving my goal - doing what I love as a career.
         </p>
@@ -47,7 +47,7 @@ const About = () => {
           </figure>
         </div>
         <h1 className='mx-auto w-fit text-grape xl:text-[1.6rem] sm:text-[1.4rem] text-[1rem] mb-6'>Hobbies</h1>
-        <p className='text-[1.1rem] w-[65%] mx-auto text-center mb-10 '>
+        <p className='text-[1.1rem] md:text-[1.4rem] w-[65%] mx-auto text-center mb-10 '>
           Since I was little I've loved playing video games and recently have been streaming them online to other people. I enjoy horror and retro games most but all genres are fun to me. I spend a decent portion of my free time (and money) expanding my music collection, and have a record spinning most of the time I'm not busy.
         </p>
       </div>
