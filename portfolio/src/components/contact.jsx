@@ -11,13 +11,13 @@ const Contact = () => {
             <form action="https://formspree.io/f/xldoqbav" method="POST" className="flex flex-col">
             <label className="flex mb-10">
                 Your email:
-                <input type="email" name="email" className='bg-white w-[22rem] ml-8' />
+                <input type="email" name="email" className='bg-white w-88 ml-8' />
             </label>
             <label className='flex'>
                 Your message:
-                <textarea name="message" className='bg-white ml-8 w-[22rem] h-[12rem] mb-10'></textarea>
+                <textarea name="message" className='bg-white ml-8 w-88 h-48 mb-10'></textarea>
             </label>
-            <button type="submit" className='mb-2 text-floralwhite bg-grape w-fit mx-auto px-3 py-2 rounded-xl'>Send</button>
+            <button type="submit" className='mb-2 text-floralwhite bg-grape cursor-pointer w-fit mx-auto px-3 py-2 rounded-xl'>Send</button>
             </form>
         </div>
     </>

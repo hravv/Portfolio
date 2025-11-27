@@ -1,5 +1,6 @@
 import React from 'react'
 import movietime from '../assets/movietime.png'
+import pokeball from '../assets/pokeballicon.png'
 
 const Projects = () => {
   return (
@@ -13,10 +14,12 @@ const Projects = () => {
         </figure>
         </a>
 
-        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
-          <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
-          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
+        <a href="https://hravv.github.io/PokeLister/" target='_blank'>
+        <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col cursor-pointer'>
+          <img src={pokeball} className='h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto text-white w-fit h-fit '>PokéLister</figcaption>
         </figure>
+        </a>
 
         <figure className='h-60 md:h-72 bg-grape w-52 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
           <div className='bg-darkgrape h-42 md:h-50 w-42 md:w-50 mx-auto mt-6' />
