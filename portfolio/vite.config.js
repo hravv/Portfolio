@@ -9,4 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: 'https://hravv.github.io/Portfolio/',
 })
