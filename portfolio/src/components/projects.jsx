@@ -1,6 +1,7 @@
 import React from 'react'
 import movietime from '../assets/movietime.png'
 import pokeball from '../assets/pokeballicon.png'
+import memorymatch from '../assets/memorymatch.png'
 
 const Projects = () => {
   return (
@@ -21,10 +22,12 @@ const Projects = () => {
         </figure>
         </a>
 
+        <a href='https://hravv.github.io/memory-match/'>
         <figure className='h-48 md:h-72 bg-grape w-42 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
-          <div className='bg-darkgrape h-32 md:h-50 w-32 md:w-50 mx-auto mt-6' />
-          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '></figcaption>
+          <img src={memorymatch} className='h-32 md:h-50 w-32 md:w-50 mx-auto mt-6' />
+          <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto w-fit h-fit '>Memory Match</figcaption>
         </figure>
+        </a>
 
       </div>
 
