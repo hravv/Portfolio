@@ -7,7 +7,7 @@ const Contact = () => {
         <p className='text-[1rem] md:text-[1.4rem] w-[65%] mx-auto text-center mb-10 '>
           Fill in the form below if you want to talk opportunities, coding, or anything at all! 
         </p>
-        <div className="form-cont w-fit mx-auto px-8 py-10 mb-10 bg-amber-100/40 rounded-2xl">
+        <div className="form-cont w-fit mx-auto px-8 py-10 mb-10 bg-amber-100/40 rounded-xl">
             <form action="https://formspree.io/f/xldoqbav" method="POST" className="flex flex-col">
             <label className="flex mb-10">
                 Your email:

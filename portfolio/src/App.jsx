@@ -23,7 +23,7 @@ function App() {
       <span className='triangle mix-blend-darken' />
     </div>
     <div className='relative z-10 min-h-screen w-full flex flex-col'>
-      <div className='h-[5rem] lg:h-[10rem]'></div>
+      <div className='h-20 lg:h-25 xl:h-40'></div>
       {/* Top Space */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -39,7 +39,7 @@ function App() {
               (page === "Home") ? "I'm Harvey."
                                 : (page === "About") ? "About Me."
                                 : (page === "Projects") ? "My Projects."
-                                : "Contact Me" 
+                                : "Contact Me." 
               }
             </h1>
           </div>
