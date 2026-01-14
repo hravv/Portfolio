@@ -22,7 +22,7 @@ const Projects = () => {
         </figure>
         </a>
 
-        <a href='https://hravv.github.io/memory-match/'>
+        <a href='https://hravv.github.io/memory-match/' target='_blank'>
         <figure className='h-48 md:h-72 bg-grape w-42 md:w-62 rounded-2xl hover:scale-110 transition-all flex flex-col'>
           <img src={memorymatch} className='h-32 md:h-50 w-32 md:w-50 mx-auto mt-6' />
           <figcaption className='text-[1rem] md:text-[1.3rem] mx-auto my-auto text-white w-fit h-fit '>Memory Match</figcaption>
