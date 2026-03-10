@@ -61,19 +61,7 @@ I built this portfolio to show other developers and potential employers what my 
 
 ## Screenshots
 
-```
-assets/
- ├── home.png
- ├── dashboard.png
- └── login.png
-```
-
-Add inside README:
-
-```markdown
-![Home Page](assets/home.png)
-![Dashboard](assets/dashboard.png)
-```
+![Home Page](assets/homepage.png)
 
 ---
 
@@ -85,6 +73,7 @@ Add inside README:
 
 - Add dark mode
 - Add update feed
+- Add scroll progress bar
 
 ---
 
