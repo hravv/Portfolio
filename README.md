@@ -22,26 +22,25 @@ Frontend Repo: https://github.com/hravv/Portfolio
 
 ## Overview
 
-### Motivation
-Why did you build this project?
-
 ### Objective
-What problem does this application solve?
+
+I built this portfolio to show other developers and potential employers what my work looks like and give them ways to contact me. Every new project marks a step taken in my journey towards full-stack development and a career in web development.
 
 ### Learning Outcomes
-- Built full authentication system
-- Designed RESTful API
-- Implemented CRUD operations
-- Connected frontend to backend
-- Deployed full-stack application
+
+- Designed responsive, dynamic user interface
+- Used CSS to create moving shapes background
+- Implemented contact form
+- State-based content delivery + navigation instead of separate pages
+- Used motion.dev for smooth transitions
 
 ---
 
 ## Features
 
 - Fully responsive design
-- Search and filter functionality
-
+- Quick, state-based navigation
+- Full CSS styling, including moving background
 ---
 
 ## Tech Stack
@@ -50,6 +49,7 @@ What problem does this application solve?
 - React 
 - HTML5
 - CSS3 / Tailwind (+ Motion)
+- JavaScript
 
 ### Tools
 - Git & GitHub
