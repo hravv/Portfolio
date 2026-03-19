@@ -2,7 +2,7 @@
 
 This portfolio site is a showcase of all my main projects. It also serves as a demonstration of my knowledge of user-friendly design & experience, creating responsive user interfaces, and CSS skills. 
 
-Live Demo: https://portfolio-nine-kappa-34.vercel.app/
+Live Demo: https://harveyburman.vercel.app/
 Frontend Repo: https://github.com/hravv/Portfolio
 
 ---
