@@ -10,7 +10,7 @@ const About = () => {
 
       <div>
         <h1 className='mx-auto w-fit text-grape xl:text-[1.6rem] sm:text-[1.4rem] text-[1rem] mb-6'>Aspiring Web Developer</h1>
-        <p className='text-[1rem] md:text-[1.4rem] w-[65%] mx-auto text-center mb-10 '>
+        <p className='w-[65%] mx-auto text-center mb-10 '>
           I'm Harvey Burman, a web developer in training with a passion for creating purposeful projects and finding new ways to solve problems.
           I've been studying and practicing in my own time, building projects (which you can check out!), and earning certifications as I work toward my goal: turning what I love into a career.
         </p>

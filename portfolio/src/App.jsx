@@ -34,7 +34,7 @@ function App() {
           transition={{duration: 0.17}}
         >
           <div className='head-container mix-blend-darken'>
-            <h1 className='mx-auto mix-blend-darken* w-fit font-futura xl:text-[6rem] sm:text-[4.8rem] text-[3.5rem] text-grape transition ease-in-out'>
+            <h1 className='mx-auto mix-blend-darken* w-fit font-futura 3xl:text-[8.5rem] xl:text-[6rem] sm:text-[4.8rem] text-[3.5rem] text-grape transition ease-in-out'>
               {
               (page === "Home") ? "I'm Harvey."
                                 : (page === "About") ? "About Me."
@@ -43,7 +43,7 @@ function App() {
               }
             </h1>
           </div>
-          <nav className='selection mx-auto w-fit flex gap-x-5.5 xl:gap-x-10 xl:text-[1.6rem] sm:text-[1.3rem] text-[1rem]'>
+          <nav className='selection mx-auto w-fit flex gap-x-5.5 xl:gap-x-10 2xl:text-[2rem] xl:text-[1.6rem] sm:text-[1.3rem] text-[1rem]'>
             <a className='cursor-pointer text-grape' onClick={() => setPage("Home")}>
               Home
             </a>

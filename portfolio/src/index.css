@@ -12,4 +12,49 @@
     --color-grape: #4D48C5;
     --color-darkgrape: #4B2CA3;
     --font-futura: "Futura";
+    --breakpoint-3xl: 1800px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    /*sm*/
+}
+
+@media (min-width: 768px) {
+    /*md*/
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    /*lg*/
+}
+
+@media (min-width: 1280px) {
+    /*xl*/
+}
+
+@media (min-width: 1536px) {
+    /*2xl*/
+}
+
+@media (min-width: 1800px) {
+    /*3xl*/
+    p {
+        font-size: 1.7rem;
+    }
+}
+
+.loadicon {
+    animation: loadanim 1s linear infinite;
+}
+
+@keyframes loadanim {
+    to {
+        transform: rotate(360deg);
+    }
 }
