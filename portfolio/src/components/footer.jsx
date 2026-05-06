@@ -24,7 +24,7 @@ const Footer = () => {
         
         </div>
         <div className='foot-text mx-auto h-fit mb-1.5 xl:mb-3'>
-            <p className='text-floralwhite lg:text-[0.8rem]'>&#169; Harvey Burman {new Date().getFullYear()}</p>
+            <p className='text-floralwhite text-[1rem]! sm:text-[1rem]! md:text-[1rem]! xl:text-[1rem]! 2xl:text-[1rem]! 3xl:text-[1rem]!'>&#169; Harvey Burman {new Date().getFullYear()}</p>
         </div>
     </section>
   )
